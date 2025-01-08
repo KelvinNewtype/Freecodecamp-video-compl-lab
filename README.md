@@ -40,7 +40,7 @@ To fulfill the user stories and ensure all tests were met, the following steps w
 By following these steps, all user stories were met, and the project passed all specified tests, ensuring a successful solution.
 
 ## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is open sourced and has no license.
 
 ---
 
