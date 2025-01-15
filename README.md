@@ -1,5 +1,6 @@
 # Freecodecamp-video-compl-lab
 Free Code Camp Video Compilation Lab Solution
+
 # 🚀 Journey Through Space: Key Milestones
 
 Welcome to the **Journey Through Space: Key Milestones** project! This simple webpage highlights significant moments in the history of space exploration, complete with embedded videos from the Crash Course YouTube channel.
@@ -9,6 +10,7 @@ Welcome to the **Journey Through Space: Key Milestones** project! This simple we
 - [User Stories](#user-stories)
 - [Getting Started](#getting-started)
 - [Implementation](#implementation)
+- [Styling](#styling)
 - [License](#license)
 
 ## 🛸 Overview
@@ -39,10 +41,26 @@ To fulfill the user stories and ensure all tests were met, the following steps w
 
 By following these steps, all user stories were met, and the project passed all specified tests, ensuring a successful solution.
 
+## 🎨 Styling
+The webpage includes futuristic-themed styling to enhance its space exploration theme. The CSS file, `styles.css`, is linked to the HTML and adds the following design elements:
+- **Dark Theme:** A dark, space-inspired background (#0d1117) with light gray text for readability.
+- **Glowing Effects:** Bright blue glowing effects for headings, borders, and iframes.
+- **Typography:** The `Orbitron` font, providing a sleek, futuristic feel.
+- **Responsive Design:** The layout adapts to smaller screens, ensuring the content looks great on all devices.
+
+### How to Use the Styling
+1. Save the CSS code in a file named `styles.css`.
+2. Link the CSS file to the HTML by adding the following line inside the `<head>` section:
+   ```html
+   <link rel="stylesheet" href="styles.css">
+   ```
+3. Open the HTML file in your browser to see the stylish design in action.
+
 ## 📜 License
 This project is open sourced and has no license.
 
 ---
 
-Thank you for checking out this project! We hope you enjoy learning about the incredible milestones in space exploration. 🚀✨
+Thank you for checking out this project! We hope you enjoy learning about the incredible milestones in space exploration. 🚀✨  
 Newtype Out!
+```
