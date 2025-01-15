@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+  background-color: #0d1117; /* Dark, space-like background */
+  color: #c9d1d9; /* Light gray for text */
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #1f6feb;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(31, 111, 235, 0.5);
+  background: linear-gradient(145deg, #0f172a, #1e293b);
+}
+
+/* Headings */
+h1, h2 {
+  color: #58a6ff; /* Bright blue */
+  text-shadow: 0 0 10px #58a6ff, 0 0 20px #58a6ff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #c9d1d9;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #1f6feb;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 0 15px rgba(31, 111, 235, 0.2);
+}
+
+/* Iframes */
+iframe {
+  border: none;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(31, 111, 235, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(31, 111, 235, 0.8);
+}
+
+/* Links */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}
