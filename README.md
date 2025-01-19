@@ -14,7 +14,7 @@ Welcome to the **Journey Through Space: Key Milestones** project! This simple we
 - [License](#license)
 
 ## 🛸 Overview
-This project is a solution for a lab project on FreeCodeCamp. It showcases a series of key milestones in space exploration, from the early days of the Space Race to modern achievements in interplanetary travel. Each section includes an informative video to deepen your understanding of these fascinating topics.
+This project is a solution for a lab assignment in the FreeCodeCamp Full Stack Developer Track, which is a mandatory component of the curriculum. It showcases a series of key milestones in space exploration, from the early days of the Space Race to modern achievements in interplanetary travel. Each section includes an informative video to deepen your understanding of these fascinating topics.
 
 ## 📝 User Stories
 To complete this lab project, the following user stories were implemented and ensured to meet all specifications:
