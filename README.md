@@ -56,6 +56,9 @@ The webpage includes futuristic-themed styling to enhance its space exploration 
    ```
 3. Open the HTML file in your browser to see the stylish design in action.
 
+## ⚙️ JavaScript 
+The JavaScript code enhances the webpage with lazy loading of videos, smooth scroll-based animations, interactive video controls, navigation features, and visual feedback effects. It is implemented by adding the script link to the HTML and utilizing various web APIs and event handling techniques. Users can interact with the page by clicking on section titles, the main title, and using arrow keys for navigation, while also experiencing hover effects on the content.
+
 ## 📜 License
 This project is open sourced and has no license.
 
