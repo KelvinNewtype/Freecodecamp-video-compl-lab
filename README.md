@@ -9,6 +9,8 @@ Welcome to the **Journey Through Space: Key Milestones** project! This simple we
 - [Overview](#overview)
 - [User Stories](#user-stories)
 - [Getting Started](#getting-started)
+  - [Downloading the Zip File](#downloading-the-zip-file)
+  - [Cloning the Repository](#cloning-the-repository)
 - [Implementation](#implementation)
 - [Styling](#styling)
 - [License](#license)
@@ -26,10 +28,21 @@ To complete this lab project, the following user stories were implemented and en
 - **Iframe Attributes:** Each iframe element also has a title attribute to describe the embedded content, and height and width attributes to set the element to a proper size.
 
 ## 🚀 Getting Started
-To get started with this project, simply copy the provided HTML code into an HTML file and open it in your preferred web browser.
 
-### Prerequisites
-No special tools or software are required. A modern web browser is all you need to view the page.
+### Downloading the Zip File
+To get started with this project, you can download the zip file by clicking on the green "Code" button on the GitHub repository and selecting "Download ZIP".
+
+### Cloning the Repository
+Alternatively, you can clone the repository to your local machine by following these steps:
+
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command to clone the repository:
+   ```
+   git clone https://github.com/your-username/Freecodecamp-video-compl-lab.git
+   ```
+   Replace `your-username` with your actual GitHub username.
+4. Once the cloning process is complete, you can navigate to the project directory and open the HTML file in your preferred web browser.
 
 ## 💻 Implementation
 To fulfill the user stories and ensure all tests were met, the following steps were taken:
@@ -66,4 +79,3 @@ This project is open sourced and has no license.
 
 Thank you for checking out this project! We hope you enjoy learning about the incredible milestones in space exploration. 🚀✨  
 Newtype Out!
-```
