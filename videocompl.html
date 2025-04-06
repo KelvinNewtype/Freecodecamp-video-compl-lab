@@ -3,33 +3,92 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Video Compilation Page</title>
+    <meta name="description" content="Explore the history of space exploration, from the Space Race to modern Mars missions. Watch historical footage of the Moon landing and learn about space achievements.">
+    <meta name="keywords" content="space exploration, moon landing, space race, NASA, Apollo 11, Mars colonization, space history">
+    <meta name="author" content="Space History Archive">
+    <meta property="og:title" content="Journey Through Space: Key Milestones in Space Exploration">
+    <meta property="og:description" content="Discover the fascinating journey of human space exploration through historical footage and documentaries.">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <title>Journey Through Space: Key Milestones in Space Exploration | Historical Archive</title>
     <link rel="preload" href="styles.css" as="style">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <link rel="canonical" href="https://yourwebsite.com/space-exploration-history">
 </head>
 <body>
+    <header>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#space-race">Space Race</a></li>
+                <li><a href="#moon-landing">Moon Landing</a></li>
+                <li><a href="#modern-exploration">Modern Exploration</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <h1>Journey Through Space: Key Milestones</h1>
-        <p>Explore the fascinating history of human space exploration, from the first steps into space to modern achievements in interplanetary travel.</p>
+        <h1>Journey Through Space: Key Milestones in Space Exploration</h1>
+        <article>
+            <p>Explore the fascinating history of human space exploration, from the first steps into space to modern achievements in interplanetary travel.</p>
 
-        <section>
-            <h2>The Space Race Begins</h2>
-            <p>The 1950s and 60s marked the beginning of the space age, with the Soviet Union and United States competing to achieve major space milestones.</p>
-            <iframe src="https://www.youtube.com/embed/FxpC-8f--xo" title="Documentary about the early Space Race" width="560" height="315" loading="lazy"></iframe>
-        </section>
+            <section id="space-race">
+                <h2>The Space Race Begins (1950s-1960s)</h2>
+                <p>The 1950s and 60s marked the beginning of the space age, with the Soviet Union and United States competing to achieve major space milestones. Key events included Sputnik 1 launch and Yuri Gagarin's first human spaceflight.</p>
+                <iframe src="https://www.youtube.com/embed/FxpC-8f--xo" 
+                        title="Documentary about the early Space Race" 
+                        width="560" 
+                        height="315" 
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        frameborder="0"></iframe>
+            </section>
 
-        <section>
-            <h2>Moon Landing Achievement</h2>
-            <p>On July 20, 1969, humans first set foot on another celestial body when Apollo 11 landed on the Moon.</p>
-            <iframe src="https://www.youtube.com/embed/S9HdPi9Ikhk" title="First Moon landing footage" width="560" height="315" loading="lazy"></iframe>
-        </section>
+            <section id="moon-landing">
+                <h2>Apollo 11 Moon Landing (July 20, 1969)</h2>
+                <p>On July 20, 1969, Neil Armstrong and Buzz Aldrin became the first humans to set foot on another celestial body when Apollo 11 landed on the Moon's Sea of Tranquility.</p>
+                <iframe src="https://www.youtube.com/embed/S9HdPi9Ikhk" 
+                        title="Historic Apollo 11 Moon landing footage" 
+                        width="560" 
+                        height="315" 
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        frameborder="0"></iframe>
+            </section>
 
-        <section>
-            <h2>Modern Space Exploration</h2>
-            <p>Today, space exploration continues with private companies and ambitious plans for Mars colonization.</p>
-            <iframe src="https://www.youtube.com/embed/A0FZIwabctw" title="Modern space exploration highlights" width="560" height="315" loading="lazy"></iframe>
-        </section>
+            <section id="modern-exploration">
+                <h2>Modern Space Exploration and Future Missions</h2>
+                <p>Today, space exploration continues with private companies like SpaceX and Blue Origin joining national space agencies in ambitious plans for Mars colonization and deep space exploration.</p>
+                <iframe src="https://www.youtube.com/embed/A0FZIwabctw" 
+                        title="Modern space exploration highlights and future missions" 
+                        width="560" 
+                        height="315" 
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        frameborder="0"></iframe>
+            </section>
+        </article>
     </main>
+    <footer>
+        <p>Last updated: <time datetime="2025-04-06">April 6, 2025</time></p>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Journey Through Space: Key Milestones in Space Exploration",
+        "description": "Explore the history of space exploration, from the Space Race to modern Mars missions. Watch historical footage of the Moon landing and learn about space achievements.",
+        "author": {
+            "@type": "Organization",
+            "name": "Space History Archive"
+        },
+        "datePublished": "2025-04-06",
+        "dateModified": "2025-04-06",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://yourwebsite.com/space-exploration-history"
+        }
+    }
+    </script>
 </body>
 </html>
