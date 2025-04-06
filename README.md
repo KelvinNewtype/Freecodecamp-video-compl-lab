@@ -1,7 +1,3 @@
-
-Free Code Camp Video Compilation Lab Solution
-More video files 
-
 # 🚀 Journey Through Space: Key Milestones
 
 Welcome to the **Journey Through Space: Key Milestones** project! This simple webpage highlights significant moments in the history of space exploration, complete with embedded videos from the Crash Course YouTube channel.
@@ -14,6 +10,7 @@ Welcome to the **Journey Through Space: Key Milestones** project! This simple we
   - [Cloning the Repository](#cloning-the-repository)
 - [Implementation](#implementation)
 - [Styling](#styling)
+- [JavaScript](#javascript)
 - [License](#license)
 
 ## 🛸 Overview
@@ -27,6 +24,7 @@ To complete this lab project, the following user stories were implemented and en
 - **Three Sections:** The page contains three section elements, each including an h2 element for the sub-topic, a paragraph for the description, and an iframe element for the embedded video.
 - **Valid Video Sources:** Each iframe element has a src attribute set to a valid video from the Crash Course YouTube channel.
 - **Iframe Attributes:** Each iframe element also has a title attribute to describe the embedded content, and height and width attributes to set the element to a proper size.
+- **SEO Enhancements:** Added meta tags for description, keywords, and Open Graph properties to improve search engine optimization.
 
 ## 🚀 Getting Started
 
@@ -52,12 +50,13 @@ To fulfill the user stories and ensure all tests were met, the following steps w
 3. **Sections:** Three section elements were created, each containing an h2 element for the sub-topic, a paragraph for the description, and an iframe element for the embedded video.
 4. **Valid Video Sources:** The iframe elements were provided with src attributes linking to relevant videos from the Crash Course YouTube channel.
 5. **Iframe Attributes:** Attributes such as title, width, and height were added to each iframe to ensure proper description and sizing.
+6. **SEO Enhancements:** Added meta tags and Open Graph data for improved visibility and sharing on social media platforms.
 
 By following these steps, all user stories were met, and the project passed all specified tests, ensuring a successful solution.
 
 ## 🎨 Styling
 The webpage includes futuristic-themed styling to enhance its space exploration theme. The CSS file, `styles.css`, is linked to the HTML and adds the following design elements:
-- **Dark Theme:** A dark, space-inspired background (#0d1117) with light gray text for readability.
+- **Dark Theme:** A dark, space-inspired background with light gray text for readability.
 - **Glowing Effects:** Bright blue glowing effects for headings, borders, and iframes.
 - **Typography:** The `Orbitron` font, providing a sleek, futuristic feel.
 - **Responsive Design:** The layout adapts to smaller screens, ensuring the content looks great on all devices.
@@ -70,11 +69,11 @@ The webpage includes futuristic-themed styling to enhance its space exploration 
    ```
 3. Open the HTML file in your browser to see the stylish design in action.
 
-## ⚙️ JavaScript 
+## ⚙️ JavaScript
 The JavaScript code enhances the webpage with lazy loading of videos, smooth scroll-based animations, interactive video controls, navigation features, and visual feedback effects. It is implemented by adding the script link to the HTML and utilizing various web APIs and event handling techniques. Users can interact with the page by clicking on section titles, the main title, and using arrow keys for navigation, while also experiencing hover effects on the content.
 
 ## 📜 License
-This project is open sourced and has no license.
+This project is open-sourced and has no license.
 
 ---
 
