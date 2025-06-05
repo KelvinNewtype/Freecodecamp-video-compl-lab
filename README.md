@@ -1,5 +1,3 @@
-Here's the full markdown with all emojis removed and all content properly enclosed:
-
 ```markdown
 # Journey Through Space: Key Milestones
 
